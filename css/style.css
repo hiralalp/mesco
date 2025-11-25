@@ -1,4 +1,4 @@
-
+﻿
 /*** Spinner Start ***/
 /*** Spinner ***/
 #spinner {
@@ -68,7 +68,7 @@
 
 /* primary and secondary  */
 .text-secondary {
-    color: #f68a0a !important;
+    color: #00adef !important;
 }
 .unique{
     color: black;
@@ -83,7 +83,7 @@
 
 /* end primary secondaaty */
 .btn.btn-primary {
-    background: #f68a0a !important;
+    background: #00adef !important;
     color: var(--bs-white) !important;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
@@ -96,7 +96,7 @@
 .btn.btn-primary:hover {
     background: #000 !important; /* Lighter shade of #07076c */
     color: #fdd835;
-    border: 1px solid #f68a0a;
+    border: 1px solid #00adef;
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
     transform: translateY(-2px);
 }
@@ -106,7 +106,7 @@
 /* Let me know if you’d like any adjustments! */
 
 .custom-btn-2{
-    background: #f68a0a !important;
+    background: #00adef !important;
     color: var(--bs-white) !important;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
@@ -118,7 +118,7 @@
 .custom-btn-2:hover{
     background: #000 !important; /* Lighter shade of #07076c */
     color: #fdd835;
-    /* border: 1px solid #f68a0a; */
+    /* border: 1px solid #00adef; */
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
     transform: translateY(-2px);
 }
@@ -193,7 +193,7 @@
     transform: translateY(-50%);
     margin-bottom: -8px;
     margin-right: -100px;
-    border: 1px solid #f68a0a !important;
+    border: 1px solid #00adef !important;
 }
 
 .sub-title::after {
@@ -258,7 +258,7 @@
 
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.active {
-    color:#f68a0a !important;
+    color:#00adef !important;
 }
 
 .navbar-light .navbar-brand img {
@@ -442,7 +442,7 @@
 .carousel-header .carousel .carousel-indicators li.active {
     width: 8px;
     height: 8px;
-    border: 8px solid #f68a0a;
+    border: 8px solid #00adef;
 }
 
 .carousel-header .carousel-inner .carousel-item {
@@ -874,7 +874,7 @@
 
 .footer .footer-item a:hover {
     letter-spacing: 2px;
-    color: #f68a0a;
+    color: #00adef;
 }
 
 /*** Footer End ***/
