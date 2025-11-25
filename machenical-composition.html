@@ -1,0 +1,789 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+         <title>Hill Metal Corporation</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="" name="keywords">
+        <meta content="" name="description">
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Poppins:wght@200;300;400;500;600&display=swap" rel="stylesheet"> 
+
+         <!-- Favicon -->
+         <link href="./img/hmc-removebg-preview.png" rel="icon">
+
+        <!-- Icon Font Stylesheet -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+        <!-- Libraries Stylesheet -->
+        <link href="lib/animate/animate.min.css" rel="stylesheet">
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+
+        <!-- font awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-secondary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+
+        <!-- Topbar Start -->
+       <div class="container-fluid bg-primary px-5 d-none d-lg-block">
+            <div class="row gx-0 align-items-center">
+                <div class="col-lg-5 text-center text-lg-start mb-lg-0">
+                    <div class="d-flex">
+                        <a href="#" class="text-muted me-4"><i class="fas fa-envelope text-secondary me-2"></i>hillmetalcorporation@gmail.com</a>
+                        <a href="tel:+01234567890" class="text-muted me-0">
+                            <i class="fas fa-phone text-secondary me-2"></i> +91 9930189039
+
+                          </a>
+                          
+                    </div>
+                </div>
+                <div class="col-lg-3 row-cols-1 text-center mb-2 mb-lg-0">
+                   
+                </div>
+                <div class="col-lg-4 text-center text-lg-end">
+                    <div class="d-inline-flex align-items-center" style="height: 45px;">
+                        <i class="fas fa-user-circle text-secondary me-2"></i> 
+
+                        <a href="#" class="text-muted me-2">Managing Director : </a><small>  </small>
+                        <a href="#" class="text-muted mx-2">Mr Ashok Prajapati </a><small>  </small>
+                        <!-- <a href="#" class="text-muted ms-2"> Contact</a> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Topbar End -->
+
+        <!-- Navbar & Hero Start -->
+        <div class="container-fluid nav-bar p-0">
+            <nav class="navbar navbar-expand-lg navbar-light bg-white px-4 px-lg-5 py-3 py-lg-0">
+                <a href="index.html" class="navbar-brand p-0">
+                    <!-- <h1 class="display-5 text-secondary m-0"><img src="img/brand-logo.png" class="img-fluid" alt="">Travisa</h1> -->
+                    <img src="img/hmc-removebg-preview.png" alt="Logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="fa fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto py-0">
+                        <a href="index.html" class="nav-item nav-link">Home</a>
+                        <a href="about.html" class="nav-item nav-link">About</a>
+                        <a href="service.html" class="nav-item nav-link">Service</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link" data-bs-toggle="dropdown"><span class="dropdown-toggle">Product Info</span></a>
+                            <div class="dropdown-menu m-0">
+                                <a href="pipe&tubes.html" class="dropdown-item ">Pipe & Tube</a>
+                                <a href="flanges.html " class="dropdown-item ">Flanges</a>
+                                <a href="buttweld.html" class="dropdown-item">Buttweld Fittings</a>
+                                <a href="forged.html" class="dropdown-item ">Forged Fittings</a>
+                                <a href="roundbars.html" class="dropdown-item">Rond Bars</a>
+                                <a href="fastners.html" class="dropdown-item">Fastners</a>
+                                <a href="sheets.html" class="dropdown-item">Sheet & Plates</a>
+                                <a href="wear-resistance-plate.html" class="dropdown-item ">Wear Resistance Plates</a>
+                                <a href="dairy-fittings.html" class="dropdown-item">Dairy Fittings</a>
+                                <a href="beam-channel.html" class="dropdown-item ">Beam & Channel</a>
+                            </div>
+                        </div>
+                       
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link" data-bs-toggle="dropdown"><span class="dropdown-toggle">Material</span></a>
+                            <div class="dropdown-menu m-0">
+                                <a href="ss-material.html" class="dropdown-item ">Stainless Steel</a>
+                                <a href="carbon-steel.html" class="dropdown-item">Carbon Steel</a>
+                                <a href="alloy-steel.html" class="dropdown-item">Alloy Steel</a>
+                                <a href="duplex-steeel.html" class="dropdown-item">Duplex Steel</a>
+                                <a href="super-duplex.html" class="dropdown-item ">Super Duplex Steel</a>
+                                <a href="monel.html" class="dropdown-item">Monel</a>
+                                <a href="Inocnol.html" class="dropdown-item ">Inconel</a>
+                                <a href="hastealloy.html" class="dropdown-item">Hastalloy</a>
+                                <a href="copper-nickle.html" class="dropdown-item">Copper Nickel</a>
+                                <a href="titanium.html" class="dropdown-item">Titanium</a>
+                            </div>
+                        </div>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link active" data-bs-toggle="dropdown"><span class="dropdown-toggle">Technical Info</span></a>
+                            <div class="dropdown-menu m-0">
+                                <a href="chemical-composition.html" class="dropdown-item ">Chemical Composition</a>
+                                <a href="machenical-composition.html" class="dropdown-item active">Machinical Composition</a>
+                                <a href="pipe-dimesion.html" class="dropdown-item">Pipe Dimensions</a>
+                                <a href="weight-calculator.html" class="dropdown-item">Weight Calculator</a>
+                            </div>
+                        </div>
+                       <a href="gallary.html" class="nav-item nav-link">Warehouse</a>
+                        <a href="contact.html" class="nav-item nav-link">Contact</a>
+                    </div>
+                                  <a href="https://api.whatsapp.com/send?phone=919930189039" target="_blank" class="custom-btn-2">Get A Quote</a>
+  
+            </nav>
+        </div>
+        <!-- Navbar & Hero End -->
+
+    
+
+        <!-- Header Start -->
+        <div class="container-fluid bg-breadcrumb" style="margin-bottom: 50px;">
+            <div class="container text-center py-5" style="max-width: 900px;">
+                <h3 class="text-white display-3 mb-4 wow fadeInDown" data-wow-delay="0.1s">Machinical Composition</h1>
+                <ol class="breadcrumb justify-content-center text-white mb-0 wow fadeInDown" data-wow-delay="0.3s">
+                    <li class="breadcrumb-item"><a href="index.html" class="text-white">Home</a></li>
+                    <li class="breadcrumb-item active text-secondary">Technical Info</li>
+                </ol>    
+            </div>
+        </div>
+        <!-- Header End -->
+
+         <!-- START CHEMICAL COMPOSITION  -->
+         <div class="container mt-4">
+            <div class="table-responsive">
+                <table class="table table-bordered table-striped" border="0" cellspacing="0" cellpadding="3" width="100%">
+                    
+                    <tbody>
+                        <tr>
+                            <td colspan="6" valign="top" style="background-color: black;">
+                                <p align="center"><strong style="color: white;">MECHANICAL PROPERTIES</strong></p>
+                            </td>
+                        </tr>
+                        <tr bgcolor="eeeeee" style="background-color: black;">
+                            <td rowspan="2" valign="top">
+                                <p align="center"><strong style="color: white;">Grade</strong></p>
+                            </td>
+                            <td rowspan="2" valign="top">
+                                <p align="center"><strong style="color: white;">Tensile</strong><strong><br>
+                               </strong><strong style="color: white;">Strength Mpa, (Min)</strong></p>
+                            </td>
+                            <td rowspan="2" valign="top">
+                                <p align="center"><strong style="color: white;">Yield</strong><strong><br>
+                                </strong><strong style="color: white;">StrengthÂ</strong><strong><br>
+                                </strong><strong style="color: white;">Mpa, (Min)</strong></p>
+                            </td>
+                            <td rowspan="2" valign="top">
+                                <p align="center"><strong style="color: white;">%Age</strong><strong><br>
+                                    </strong><strong style="color: white;">Elongation</strong><strong><br>
+                                    </strong><strong style="color: white;">in 50mm</strong><strong><br>
+                                    </strong><strong style="color: white;">gauge length min</strong></p>
+                            </td>
+                            <td colspan="2">
+                                <p align="center"><strong style="color: white;">Hardness (Max)</strong></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td valign="top">
+                                <p align="center"><strong>BHN</strong></p>
+                            </td>
+                            <td valign="top">
+                                <p align="center"><strong>Rb</strong></p>
+                            </td>
+                        </tr>
+                        <tr bgcolor="eeeeee">
+                            <td valign="top">
+                                <p align="center"><strong>301</strong></p>
+                            </td>
+                            <td valign="top">
+                                <p align="center">515</p>
+                            </td>
+                            <td valign="top">
+                                <p align="center">205</p>
+                            </td>
+                            <td valign="top">
+                                <p align="center">40</p>
+                            </td>
+                            <td valign="top">
+                                <p align="center">217</p>
+                            </td>
+                            <td valign="top">
+                                <p align="center">95</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td valign="top">
+                                <p align="center"><strong>304</strong></p>
+                            </td>
+                            <td valign="top">
+                                <p align="center">515</p>
+                            </td>
+                            <td valign="top">
+                                <p align="center">205</p>
+                            </td>
+                            <td valign="top">
+                                <p align="center">40</p>
+                            </td>
+                            <td valign="top">
+                                <p align="center">201</p>
+                            </td>
+                            <td valign="top">
+                                <p align="center">92</p>
+                            </td>
+                        </tr>
+                        <tr bgcolor="eeeeee">
+                            <td valign="top">
+                                <p align="center"><strong>304L</strong></p>
+                            </td>
+                            <td valign="top">
+                                <p align="center">485</p>
+                            </td>
+                            <td valign="top">
+                                <p align="center">170</p>
+                            </td>
+                            <td valign="top">
+                                <p align="center">40</p>
+                            </td>
+                            <td valign="top">
+                                <p align="center">201</p>
+                            </td>
+                            <td valign="top">
+                                <p align="center">92</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td valign="top">
+                                <p align="center"><strong>310S</strong></p>
+                            </td>
+                            <td valign="top">
+                                <p align="center">515</p>
+                            </td>
+                            <td valign="top">
+                                <p align="center">205</p>
+                            </td>
+                            <td valign="top">
+                                <p align="center">40</p>
+                            </td>
+                            <td valign="top">
+                                <p align="center">217</p>
+                            </td>
+                            <td valign="top">
+                                <p align="center">95</p>
+                            </td>
+                        </tr>
+                        <tr bgcolor="eeeeee">
+                            <td valign="top">
+                                <p align="center"><strong>316</strong></p>
+                            </td>
+                            <td valign="top">
+                                <p align="center">515</p>
+                            </td>
+                            <td valign="top">
+                                <p align="center">205</p>
+                            </td>
+                            <td valign="top">
+                                <p align="center">40</p>
+                            </td>
+                            <td valign="top">
+                                <p align="center">217</p>
+                            </td>
+                            <td valign="top">
+                                <p align="center">95</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td valign="top">
+                                <p align="center"><strong>316L</strong></p>
+                            </td>
+                            <td valign="top">
+                                <p align="center">485</p>
+                            </td>
+                            <td valign="top">
+                                <p align="center">170</p>
+                            </td>
+                            <td valign="top">
+                                <p align="center">40</p>
+                            </td>
+                            <td valign="top">
+                                <p align="center">217</p>
+                            </td>
+                            <td valign="top">
+                                <p align="center">95</p>
+                            </td>
+                        </tr>
+                        <tr bgcolor="eeeeee">
+                            <td valign="top">
+                                <p align="center"><strong>317</strong></p>
+                            </td>
+                            <td valign="top">
+                                <p align="center">515</p>
+                            </td>
+                            <td valign="top">
+                                <p align="center">205</p>
+                            </td>
+                            <td valign="top">
+                                <p align="center">35</p>
+                            </td>
+                            <td valign="top">
+                                <p align="center">217</p>
+                            </td>
+                            <td valign="top">
+                                <p align="center">95</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td valign="top">
+                                <p align="center"><strong>317L</strong></p>
+                            </td>
+                            <td valign="top">
+                                <p align="center">515</p>
+                            </td>
+                            <td valign="top">
+                                <p align="center">205</p>
+                            </td>
+                            <td valign="top">
+                                <p align="center">40</p>
+                            </td>
+                            <td valign="top">
+                                <p align="center">217</p>
+                            </td>
+                            <td valign="top">
+                                <p align="center">95</p>
+                            </td>
+                        </tr>
+                        <tr bgcolor="eeeeee">
+                            <td valign="top">
+                                <p align="center"><strong>321</strong></p>
+                            </td>
+                            <td valign="top">
+                                <p align="center">515</p>
+                            </td>
+                            <td valign="top">
+                                <p align="center">205</p>
+                            </td>
+                            <td valign="top">
+                                <p align="center">40</p>
+                            </td>
+                            <td valign="top">
+                                <p align="center">217</p>
+                            </td>
+                            <td valign="top">
+                                <p align="center">95</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td valign="top">
+                                <p align="center"><strong>347</strong></p>
+                            </td>
+                            <td valign="top">
+                                <p align="center">515</p>
+                            </td>
+                            <td valign="top">
+                                <p align="center">205</p>
+                            </td>
+                            <td valign="top">
+                                <p align="center">40</p>
+                            </td>
+                            <td valign="top">
+                                <p align="center">201</p>
+                            </td>
+                            <td valign="top">
+                                <p align="center">92</p>
+                            </td>
+                        </tr>
+                        <tr bgcolor="eeeeee">
+                            <td valign="top">
+                                <p align="center"><strong>409</strong></p>
+                            </td>
+                            <td valign="top">
+                                <p align="center">380</p>
+                            </td>
+                            <td valign="top">
+                                <p align="center">170</p>
+                            </td>
+                            <td valign="top">
+                                <p align="center">20</p>
+                            </td>
+                            <td valign="top">
+                                <p align="center">179</p>
+                            </td>
+                            <td valign="top">
+                                <p align="center">88</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td valign="top">
+                                <p align="center"><strong>409M</strong></p>
+                            </td>
+                            <td valign="top">
+                                <p align="center">430</p>
+                            </td>
+                            <td valign="top">
+                                <p align="center">275</p>
+                            </td>
+                            <td valign="top">
+                                <p align="center">20</p>
+                            </td>
+                            <td valign="top">
+                                <p align="center">187</p>
+                            </td>
+                            <td valign="top">
+                                <p align="center">90</p>
+                            </td>
+                        </tr>
+                        <tr bgcolor="eeeeee">
+                            <td valign="top">
+                                <p align="center"><strong>410S</strong></p>
+                            </td>
+                            <td valign="top">
+                                <p align="center">415</p>
+                            </td>
+                            <td valign="top">
+                                <p align="center">205</p>
+                            </td>
+                            <td valign="top">
+                                <p align="center">22</p>
+                            </td>
+                            <td valign="top">
+                                <p align="center">183</p>
+                            </td>
+                            <td valign="top">
+                                <p align="center">89</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td valign="top">
+                                <p align="center"><strong>410</strong></p>
+                            </td>
+                            <td valign="top">
+                                <p align="center">450</p>
+                            </td>
+                            <td valign="top">
+                                <p align="center">205</p>
+                            </td>
+                            <td valign="top">
+                                <p align="center">20</p>
+                            </td>
+                            <td valign="top">
+                                <p align="center">217</p>
+                            </td>
+                            <td valign="top">
+                                <p align="center">89</p>
+                            </td>
+                        </tr>
+                        <tr bgcolor="eeeeee">
+                            <td valign="top">
+                                <p align="center"><strong>420</strong></p>
+                            </td>
+                            <td valign="top">
+                                <p align="center">700( max )</p>
+                            </td>
+                            <td valign="top">
+                                <p align="center">-</p>
+                            </td>
+                            <td valign="top">
+                                <p align="center">15</p>
+                            </td>
+                            <td valign="top">
+                                <p align="center">217</p>
+                            </td>
+                            <td valign="top">
+                                <p align="center">95</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td valign="top">
+                                <p align="center"><strong>430</strong></p>
+                            </td>
+                            <td valign="top">
+                                <p align="center">450</p>
+                            </td>
+                            <td valign="top">
+                                <p align="center">205</p>
+                            </td>
+                            <td valign="top">
+                                <p align="center">22</p>
+                            </td>
+                            <td valign="top">
+                                <p align="center">183</p>
+                            </td>
+                            <td valign="top">
+                                <p align="center">89</p>
+                            </td>
+                        </tr>
+                        <tr bgcolor="eeeeee">
+                            <td valign="top">
+                                <p align="center"><strong>JSL AUS</strong></p>
+                            </td>
+                            <td valign="top">
+                                <p align="center">515</p>
+                            </td>
+                            <td valign="top">
+                                <p align="center">205</p>
+                            </td>
+                            <td valign="top">
+                                <p align="center">40</p>
+                            </td>
+                            <td valign="top">
+                                <p align="center">217</p>
+                            </td>
+                            <td valign="top">
+                                <p align="center">95</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td valign="top">
+                                <p align="center"><strong>JS- 203</strong></p>
+                            </td>
+                            <td valign="top">
+                                <p align="center">515</p>
+                            </td>
+                            <td valign="top">
+                                <p align="center">205</p>
+                            </td>
+                            <td valign="top">
+                                <p align="center">40</p>
+                            </td>
+                            <td valign="top">
+                                <p align="center">217</p>
+                            </td>
+                            <td valign="top">
+                                <p align="center">95</p>
+                            </td>
+                        </tr>
+                        <tr bgcolor="eeeeee">
+                            <td valign="top">
+                                <p align="center"><strong>301M</strong></p>
+                            </td>
+                            <td valign="top">
+                                <p align="center">515</p>
+                            </td>
+                            <td valign="top">
+                                <p align="center">205</p>
+                            </td>
+                            <td valign="top">
+                                <p align="center">40</p>
+                            </td>
+                            <td valign="top">
+                                <p align="center">217</p>
+                            </td>
+                            <td valign="top">
+                                <p align="center">95</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <!-- END CHMECIAL COMPOSITION -->
+         
+<style>/* General container styling */
+/* General container styling */
+
+
+/* Table styling */
+.table-responsive {
+    overflow-x: auto;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 14px;
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Table header styling */
+.table thead {
+    background-color: #05080b;
+    color: #fff;
+}
+
+.table thead th {
+    padding: 12px 15px;
+    text-align: center;
+    font-weight: bold;
+    border-bottom: 2px solid #ddd;
+}
+
+/* Table body styling */
+.table tbody tr {
+    border-bottom: 1px solid #ddd;
+    transition: background-color 0.3s ease;
+}
+
+.table tbody tr:nth-child(even) {
+    background-color: #f8f9fa;
+}
+
+.table tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+.table tbody td {
+    padding: 12px 15px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+/* Ensure <p> elements inside the table have black text */
+.table tbody td p {
+    color: black;
+    margin: 0; /* Remove default margin for better alignment */
+}
+
+/* Specific styling for highlighted rows */
+.table tbody tr[bgcolor="eeeeee"] {
+    background-color: #f8f9fa;
+}
+
+/* Footer styling */
+.table tbody tr:last-child {
+    background-color: #e9ecef;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    /* .table thead {
+        display: none;
+    } */
+
+    /* .table, .table tbody, .table tr, .table td {
+        display: block;
+        width: 100%;
+    } */
+
+    .table tr {
+        margin-bottom: 15px;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .table td {
+        text-align: right;
+        padding-left: 50%;
+        position: relative;
+    }
+
+    .table td::before {
+        content: attr(data-label);
+        position: absolute;
+        left: 10px;
+        width: 45%;
+        padding-right: 10px;
+        text-align: left;
+        font-weight: bold;
+        color: #007bff;
+    }
+}
+   </style>
+<!-- END CHMECIAL COMPOSITION -->
+     
+
+        
+  
+
+        <!-- Footer Start -->
+       <div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.2s" style="margin-top: 80px;">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item d-flex flex-column">
+                            <h4 class="text-secondary mb-4">Contact Info</h4>
+                            <a href=""><i class="fa fa-map-marker-alt me-2"></i>119/121, Rajmudra Bldg , 2nd Floor , Office No. 201 , Bhandari Street , Mumbai - 40004.</a>
+                            <a href=""><i class="fas fa-phone me-2"></i> +91 9930189039</a>
+                            <a href=""><i class="fas fa-phone me-2"></i> +91 8529663496</a>
+                            <a href="" class="mb-3"><i class="fas fa-print me-2"></i> +91 7777074842</a>
+                            <div class="d-flex align-items-center">
+                                <i class="fas fa-share fa-2x text-secondary me-2"></i>
+                                <a class="btn mx-1" href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn mx-1" href="https://x.com/"><i class="fab fa-twitter"></i></a>
+                                <a class="btn mx-1" href="https://www.instagram.com/accounts/login/?hl=en"><i class="fab fa-instagram"></i></a>
+                                <a class="btn mx-1" href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item d-flex flex-column">
+                            <h4 class="text-secondary mb-4">Opening Time</h4>
+                            <div class="mb-3">
+                                <h6 class="text-muted mb-0">Mon - Friday:</h6>
+                                <p class="text-white mb-0">09.00 am to 07.00 pm</p>
+                            </div>
+                            <div class="mb-3">
+                                <h6 class="text-muted mb-0">Satday:</h6>
+                                <p class="text-white mb-0">10.00 am to 05.00 pm</p>
+                            </div>
+                            <div class="mb-3">
+                                <h6 class="text-muted mb-0">Vacation:</h6>
+                                <p class="text-white mb-0">All Sunday is our vacation</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item d-flex flex-column">
+                            <h4 class="text-secondary mb-4">Our Services</h4>
+                            <a href="service.html" class=""><i class="fas fa-angle-right me-2"></i> Aerospace</a>
+                            <a href="service.html" class=""><i class="fas fa-angle-right me-2"></i> Marine</a>
+                            <a href="service.html" class=""><i class="fas fa-angle-right me-2"></i> Petrochemical</a>
+                            <a href="service.html" class=""><i class="fas fa-angle-right me-2"></i> Oil & Gas</a>
+                            <a href="service.html" class=""><i class="fas fa-angle-right me-2"></i> Constructioon </a>
+                            <a href="service.html" class=""><i class="fas fa-angle-right me-2"></i> Power Plants</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item">
+                            <h4 class="text-secondary mb-4">Quality</h4>
+                            <p class="text-white mb-3">Hill Metal Corporation ensures top-tier quality by sourcing premium ferrous and non-ferrous metals, guaranteeing exceptional durability and reliability in every product.</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+        
+        <!-- Copyright Start -->
+      <div class="container-fluid copyright py-4">
+            <div class="container">
+                <div class="row g-4 justify-content-center"> 
+                    <div class="col-md-6 text-center">
+                        <span class="text-white">
+                            <a href="#" class="text-white">All right reserved</a> 
+                            <strong style="color: #f68a0a;">Hill Metal Corporation</strong>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Copyright End -->
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-primary btn-lg-square back-to-top"><i class="fa fa-arrow-up"></i></a>   
+
+        
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    </body>
+
+</html>
